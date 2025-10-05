@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: "en-us"
-title: "Resume | MERT BAKIR"
+title: "Resume | JIZELL QUIJADA"
 disableKinds: ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
 theme: "resume-a4"
 
@@ -62,9 +62,9 @@ params:
       widget: word-list
       style: compact # list, compact, title-list
     - feature: education
-    - feature: interests
-      widget: word-list
-      style: list
+    #- feature: interests
+      #widget: word-list
+     # style: list
   pages:
     - features:
         - feature: about
@@ -73,13 +73,11 @@ params:
     - features:
         - feature: experience
           title: Experience (Cont.)
-        - feature: projects
-          collection: projects
-        - feature: publications
-          style: IEEE # IEEE, APA, else
-        - feature: awards
-        - feature: certificates
-          title: Certifications
+        #- feature: projects
+         # collection: projects
+        #- feature: publications
+         # style: IEEE # IEEE, APA, else
+        #- feature: awards
         - feature: interests
           widget: word-list
           style: list
@@ -110,9 +108,9 @@ params:
     links:
       - prefix: Contact me on
         title: Linkedin
-        url: 'https://linkedin.com/in/mertbakir/'
+        url: 'https://www.linkedin.com/in/jizell-quijada'
         icon: fab fa-linkedin
-      - prefix: Check out my
-        title: Website
-        url: 'https://mertbakir.gitlab.io/about/'
-        icon: fas fa-globe
+      #- prefix: Check out my
+      #  title: Website
+      #  url: 'https://mertbakir.gitlab.io/about/'
+       # icon: fas fa-globe
