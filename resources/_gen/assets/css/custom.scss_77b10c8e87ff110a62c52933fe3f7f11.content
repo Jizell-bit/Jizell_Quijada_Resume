@@ -1,0 +1,1 @@
+@media print{a:not(.non-existing)::after{content:" (" attr(href)")";margin:0;font-weight:400;font-size:.75rem;color:#636363}.item-title a::after{content:attr(href);display:block;margin:0}.section-publications a::after{content:attr(href);display:block;margin:0 .75rem}}
