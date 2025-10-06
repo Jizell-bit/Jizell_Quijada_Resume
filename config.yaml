@@ -114,3 +114,7 @@ params:
       #  title: Website
       #  url: 'https://mertbakir.gitlab.io/about/'
        # icon: fas fa-globe
+
+markup:
+  sass:
+    transpiler: dartsass
